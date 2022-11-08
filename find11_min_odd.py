@@ -1,4 +1,4 @@
-def find_min_odd(data:list[int])->int:
+def find_min_odd(data):
     """
     Given the list of numbers, Find the minimum odd number in the list
     args:

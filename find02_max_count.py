@@ -1,5 +1,4 @@
-# Given the list of numbers, Find count of maximum numbers in the list
-def find_max_count(data:list[int])->int:
+def find_max_count(data):
     """
     Given the list of numbers, Find count of maximum numbers in the list
     args:

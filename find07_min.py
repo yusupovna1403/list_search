@@ -1,4 +1,4 @@
-def find_min(data:list[int])->int:
+def find_min(data):
     """
     Given the list of numbers, return the minimum number in the list
     args:

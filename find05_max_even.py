@@ -1,4 +1,4 @@
-def find_max_even(data:list[int])->int:
+def find_max_even(data):
     """
     Given the list of numbers, Find the maximum even number in the list
     args:

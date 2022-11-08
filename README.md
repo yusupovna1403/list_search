@@ -94,20 +94,20 @@ Output: 0
 
 ## find05_max_even
 
-  Given the list of numbers, return the index of maximum number in the list.
+  Given the list of numbers, Find the maximum even number in the list
 
 **Example 1:**
 
 ```Python
-Input: [1, 8, 3, 8, 5]
-Output: 4
+Input: [1, 4, 3, 8, 5]
+Output: 8
 
 ```
 **Example 2:**
 
 ```Python
-Input: [13, 8, 3, 4, 9]
-Output: 0
+Input: [7, 6, 3, 4, 9]
+Output: 6
 
 ```
 **Constraints:**

@@ -1,5 +1,4 @@
-# Given the list of numbers, return the maximum number in the list
-def find_max(data:list[int])->int:
+def find_max(data):
     """
     Given the list of numbers, return the maximum number in the list
     args:
