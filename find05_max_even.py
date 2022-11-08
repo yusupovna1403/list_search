@@ -1,4 +1,3 @@
-# Given the list of numbers, Find the maximum even number in the list
 def find_max_even(data:list[int])->int:
     """
     Given the list of numbers, Find the maximum even number in the list
