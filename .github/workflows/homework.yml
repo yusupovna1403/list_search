@@ -11,7 +11,7 @@ jobs:
       - name: Checkout the repository
         uses: actions/checkout@v2
         with:
-          repository: codeschooluz/basic_function_test
+          repository: codeschooluz/list_search_test
           token: ${{secrets.TEST_KEY}}
           path: test
       - name: Install dependencies
@@ -24,6 +24,6 @@ jobs:
       - name: Run tests
         run: |
           pytest -v --tb=no -q
-      - name: Send requests
-        run: |
-          python sendtest ${{github.actor}} '${{github.repository}}'
+#       - name: Send requests
+#         run: |
+#           python sendtest ${{github.actor}} '${{github.repository}}'
