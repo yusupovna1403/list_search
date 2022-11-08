@@ -44,7 +44,7 @@ Output: 2
 
 ```Python
 Input: [13, 8, 3, 4, 9]
-Output: 0
+Output: 1
 
 ```
 **Constraints:**
@@ -59,14 +59,14 @@ Output: 0
 
 ```Python
 Input: [1, 2, 3, 4, 5]
-Output: 5
+Output: 6
 
 ```
 **Example 2:**
 
 ```Python
-Input: [13, 8, 3, 4, 9]
-Output: 0
+Input: [2, 7, 3, 4, 9]
+Output: 11
 
 ```
 **Constraints:**
@@ -81,14 +81,14 @@ Output: 0
 
 ```Python
 Input: [1, 2, 3, 4, 5]
-Output: 5
+Output: 4
 
 ```
 **Example 2:**
 
 ```Python
-Input: [13, 8, 3, 4, 9]
-Output: 0
+Input: [6, 8, 7, 4, 0]
+Output: 1
 
 ```
 
