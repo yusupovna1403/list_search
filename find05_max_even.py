@@ -6,20 +6,29 @@ def find_max_even(data):
     returns: maximum even number in the list
     """
     i = 0
-    max_even = []
-    while i < len(data):
-        if data[i] % 2 == 0:
-            max_even.append(data[i])
-    
-        i+=1
-    j = 1
-    max = max_even[0]
-    while j < len(max_even):
-        if max_even[j] > max:
-            max = max_even[j]
-        j+=1
+    a = []
 
-    return  max
-data = [11,9,5,8,9]
+    while i < len(data):
+        
+        if data[i] % 2 == 0:
+            a.append(data[i])
+            
+        i+=1
+    if len(a) == 0:
+        return -1
+    else:
+        j = 0
+        max = a[0]
+        while j < len(a):
+            if a[j] > max:
+                max = a[j]
+            j+=1
+        return max
+
+            
+            
+
+    
+data = [11,4,7,8,2,9]
 print(find_max_even(data))
     
